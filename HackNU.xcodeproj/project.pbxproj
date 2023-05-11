@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		131AE20EBD7EA57E332B7009 /* Pods_HackNU.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B27CD4FEEC18D643115EE8E4 /* Pods_HackNU.framework */; };
+		330443BF29EB564300B50098 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330443BE29EB564300B50098 /* OrderViewController.swift */; };
+		3368508F29EA6F8A007D9205 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3368508E29EA6F8A007D9205 /* AppDelegate.swift */; };
+		3368509129EA6F8A007D9205 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3368509029EA6F8A007D9205 /* SceneDelegate.swift */; };
+		3368509329EA6F8A007D9205 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3368509229EA6F8A007D9205 /* ViewController.swift */; };
+		3368509629EA6F8A007D9205 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3368509429EA6F8A007D9205 /* Main.storyboard */; };
+		3368509829EA6F8D007D9205 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3368509729EA6F8D007D9205 /* Assets.xcassets */; };
+		3368509B29EA6F8D007D9205 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3368509929EA6F8D007D9205 /* LaunchScreen.storyboard */; };
+		336850A829EAC08F007D9205 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336850A729EAC08F007D9205 /* LoginViewModel.swift */; };
+		336850AA29EAC665007D9205 /* OrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336850A929EAC665007D9205 /* OrdersViewController.swift */; };
+		336850AC29EACC70007D9205 /* OrderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336850AB29EACC70007D9205 /* OrderData.swift */; };
+		336850B029EACF37007D9205 /* CouriersData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336850AF29EACF37007D9205 /* CouriersData.swift */; };
+		336850B329EB056E007D9205 /* OrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336850B129EB056E007D9205 /* OrderCell.swift */; };
+		336850B429EB056E007D9205 /* OrderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 336850B229EB056E007D9205 /* OrderCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18D0F51811E498DD4E15324D /* Pods-HackNU.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackNU.release.xcconfig"; path = "Target Support Files/Pods-HackNU/Pods-HackNU.release.xcconfig"; sourceTree = "<group>"; };
+		330443BE29EB564300B50098 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		3368508B29EA6F8A007D9205 /* HackNU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackNU.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3368508E29EA6F8A007D9205 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3368509029EA6F8A007D9205 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3368509229EA6F8A007D9205 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3368509529EA6F8A007D9205 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3368509729EA6F8D007D9205 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3368509A29EA6F8D007D9205 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3368509C29EA6F8D007D9205 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		336850A729EAC08F007D9205 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		336850A929EAC665007D9205 /* OrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersViewController.swift; sourceTree = "<group>"; };
+		336850AB29EACC70007D9205 /* OrderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderData.swift; sourceTree = "<group>"; };
+		336850AF29EACF37007D9205 /* CouriersData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouriersData.swift; sourceTree = "<group>"; };
+		336850B129EB056E007D9205 /* OrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCell.swift; sourceTree = "<group>"; };
+		336850B229EB056E007D9205 /* OrderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrderCell.xib; sourceTree = "<group>"; };
+		B27CD4FEEC18D643115EE8E4 /* Pods_HackNU.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackNU.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9E782A10DB0DCB45E2B0B5F /* Pods-HackNU.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackNU.debug.xcconfig"; path = "Target Support Files/Pods-HackNU/Pods-HackNU.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3368508829EA6F8A007D9205 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				131AE20EBD7EA57E332B7009 /* Pods_HackNU.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3368508229EA6F8A007D9205 = {
+			isa = PBXGroup;
+			children = (
+				3368508D29EA6F8A007D9205 /* HackNU */,
+				3368508C29EA6F8A007D9205 /* Products */,
+				36EEA3059C595E0597E207C3 /* Pods */,
+				502C6DA32782060C84980372 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3368508C29EA6F8A007D9205 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3368508B29EA6F8A007D9205 /* HackNU.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3368508D29EA6F8A007D9205 /* HackNU */ = {
+			isa = PBXGroup;
+			children = (
+				3368508E29EA6F8A007D9205 /* AppDelegate.swift */,
+				3368509029EA6F8A007D9205 /* SceneDelegate.swift */,
+				336850A329EA8111007D9205 /* Models */,
+				336850A229EA80FD007D9205 /* Views */,
+				336850A429EA8162007D9205 /* Controllers */,
+				3368509729EA6F8D007D9205 /* Assets.xcassets */,
+				3368509929EA6F8D007D9205 /* LaunchScreen.storyboard */,
+				3368509C29EA6F8D007D9205 /* Info.plist */,
+			);
+			path = HackNU;
+			sourceTree = "<group>";
+		};
+		336850A229EA80FD007D9205 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3368509429EA6F8A007D9205 /* Main.storyboard */,
+				336850B129EB056E007D9205 /* OrderCell.swift */,
+				336850B229EB056E007D9205 /* OrderCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		336850A329EA8111007D9205 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				336850A729EAC08F007D9205 /* LoginViewModel.swift */,
+				336850AB29EACC70007D9205 /* OrderData.swift */,
+				336850AF29EACF37007D9205 /* CouriersData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		336850A429EA8162007D9205 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3368509229EA6F8A007D9205 /* ViewController.swift */,
+				336850A929EAC665007D9205 /* OrdersViewController.swift */,
+				330443BE29EB564300B50098 /* OrderViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		36EEA3059C595E0597E207C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9E782A10DB0DCB45E2B0B5F /* Pods-HackNU.debug.xcconfig */,
+				18D0F51811E498DD4E15324D /* Pods-HackNU.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		502C6DA32782060C84980372 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B27CD4FEEC18D643115EE8E4 /* Pods_HackNU.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3368508A29EA6F8A007D9205 /* HackNU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3368509F29EA6F8D007D9205 /* Build configuration list for PBXNativeTarget "HackNU" */;
+			buildPhases = (
+				73A91D52ED691190003D2750 /* [CP] Check Pods Manifest.lock */,
+				3368508729EA6F8A007D9205 /* Sources */,
+				3368508829EA6F8A007D9205 /* Frameworks */,
+				3368508929EA6F8A007D9205 /* Resources */,
+				F8F377E4F77765C4BCA9268A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackNU;
+			productName = HackNU;
+			productReference = 3368508B29EA6F8A007D9205 /* HackNU.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3368508329EA6F8A007D9205 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					3368508A29EA6F8A007D9205 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 3368508629EA6F8A007D9205 /* Build configuration list for PBXProject "HackNU" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3368508229EA6F8A007D9205;
+			productRefGroup = 3368508C29EA6F8A007D9205 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3368508A29EA6F8A007D9205 /* HackNU */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3368508929EA6F8A007D9205 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3368509B29EA6F8D007D9205 /* LaunchScreen.storyboard in Resources */,
+				3368509829EA6F8D007D9205 /* Assets.xcassets in Resources */,
+				336850B429EB056E007D9205 /* OrderCell.xib in Resources */,
+				3368509629EA6F8A007D9205 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		73A91D52ED691190003D2750 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HackNU-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8F377E4F77765C4BCA9268A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HackNU/Pods-HackNU-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HackNU/Pods-HackNU-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HackNU/Pods-HackNU-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3368508729EA6F8A007D9205 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330443BF29EB564300B50098 /* OrderViewController.swift in Sources */,
+				336850AA29EAC665007D9205 /* OrdersViewController.swift in Sources */,
+				3368509329EA6F8A007D9205 /* ViewController.swift in Sources */,
+				336850B029EACF37007D9205 /* CouriersData.swift in Sources */,
+				336850B329EB056E007D9205 /* OrderCell.swift in Sources */,
+				3368508F29EA6F8A007D9205 /* AppDelegate.swift in Sources */,
+				336850A829EAC08F007D9205 /* LoginViewModel.swift in Sources */,
+				3368509129EA6F8A007D9205 /* SceneDelegate.swift in Sources */,
+				336850AC29EACC70007D9205 /* OrderData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3368509429EA6F8A007D9205 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3368509529EA6F8A007D9205 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3368509929EA6F8D007D9205 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3368509A29EA6F8D007D9205 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3368509D29EA6F8D007D9205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3368509E29EA6F8D007D9205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		336850A029EA6F8D007D9205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9E782A10DB0DCB45E2B0B5F /* Pods-HackNU.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 92698MMMCG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HackNU/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DiasMurzagaliyev.HackNU;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		336850A129EA6F8D007D9205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18D0F51811E498DD4E15324D /* Pods-HackNU.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 92698MMMCG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HackNU/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DiasMurzagaliyev.HackNU;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3368508629EA6F8A007D9205 /* Build configuration list for PBXProject "HackNU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3368509D29EA6F8D007D9205 /* Debug */,
+				3368509E29EA6F8D007D9205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3368509F29EA6F8D007D9205 /* Build configuration list for PBXNativeTarget "HackNU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				336850A029EA6F8D007D9205 /* Debug */,
+				336850A129EA6F8D007D9205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3368508329EA6F8A007D9205 /* Project object */;
+}
